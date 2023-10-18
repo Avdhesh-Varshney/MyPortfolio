@@ -28,6 +28,7 @@ body {
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    user-select: none;
 }
 
 ul {
@@ -53,6 +54,7 @@ ul {
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.3s ease;
+    user-select: none;
 }
 
 .section.back-section {
@@ -136,8 +138,7 @@ ul {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin: 0 -15px 8px;
     position: relative;
 }
 
@@ -607,7 +608,8 @@ h3.my-profession {
 
 .about .about-content h3.title {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     font-weight: 700;
     color: var(--text-black-900);
 }
@@ -701,21 +703,27 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner .icon {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     display: block;
     margin: 0 auto 30px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgba(211, 211, 211, 0.5);
     transition: all 0.3s ease;
 }
 
 .service .service-item .service-item-inner .icon .fa {
     font-size: 40px;
-    line-height: 60px;
+    line-height: 70px;
     color: var(--skin-color);
     transition: all 0.3s ease;
+}
+
+.service .service-item .service-item-inner p .fa-star {
+    color: yellow;
+    text-shadow: 1px 1px 1rem rgb(134, 132, 132);
+    margin-left: 4px;
 }
 
 .service .service-item .service-item-inner:hover .icon {
