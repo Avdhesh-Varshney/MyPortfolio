@@ -41,7 +41,41 @@
 }
 
 .style-switcher .day-night {
-    top: 55px;
+    top: 45px;
+}
+
+.style-switcher .github {
+    top: 90px;
+}
+
+.style-switcher .linkedin {
+    top: 135px;
+}
+
+.style-switcher .google {
+    top: 180px;
+}
+
+.style-switcher .leetcode {
+    top: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-switcher .codeforces {
+    top: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-switcher .codechef {
+    top: 315px;
+}
+
+.style-switcher .hackerrank {
+    top: 360px;
 }
 
 .style-switcher h4 {
